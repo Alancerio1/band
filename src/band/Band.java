@@ -15,7 +15,7 @@ public class Band {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       String names[] = {"John","Nick","Matt","Alex","Andrew","Jennifer"};
+       String names[] = {"John","Nick","Matt","Alex","Andrew","Jennifer","Jim","Jackie","Tom","Mitch"};
        String random = (names[new Random().nextInt(names.length)]);  
        String random1 = (names[new Random().nextInt(names.length)]);
        String random2 = (names[new Random().nextInt(names.length)]);
