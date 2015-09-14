@@ -16,7 +16,11 @@ public class Band {
      */
     public static void main(String[] args) {
         Trumpet instrument1 = new Trumpet();
-        
-    }
+        Trombone instrument2 = new Trombone();
+        Tuba instrument3 = new Tuba();
     
+    instrument1.play();
+    instrument2.play();
+    instrument3.play();
+    }
 }
