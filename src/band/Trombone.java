@@ -9,13 +9,15 @@ package band;
  *
  * @author alancerio18
  */
-public class Tuba extends BrassInsruments{
+
+public class Trombone extends BrassInsruments {
     
    
-    public Tuba(){
+     public Trombone(){
         super();
-       this.name="Tuba";
+       this.name="Trombone";
     }
+
     public String getName() {
         return name;
     }

@@ -11,4 +11,17 @@ package band;
  */
 public class Trumpet extends BrassInsruments{
     
+   public Trumpet(){
+        super();
+       this.name="Trumpet";
+    }
+
+    public String getName() {
+        return name;
+    }
+public  String Sound(){
+    return Sound();
+}
+   
+    
 }

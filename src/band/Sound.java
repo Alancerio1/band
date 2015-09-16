@@ -9,6 +9,6 @@ package band;
  *
  * @author alancerio18
  */
-public abstract class Instrument implements Sound {
-    public String name;
+public interface Sound {
+    public abstract String sound();
 }

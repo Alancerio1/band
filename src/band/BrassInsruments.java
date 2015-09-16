@@ -9,6 +9,6 @@ package band;
  *
  * @author alancerio18
  */
-public abstract class BrassInsruments extends Instrument {
+public abstract class BrassInsruments extends Instrument{
    private String BrassNames ;
 }

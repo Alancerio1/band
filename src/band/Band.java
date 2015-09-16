@@ -9,6 +9,9 @@ import java.util.Random;
  *
  * @author alancerio18
  */
+/*
+
+*/
 public class Band {
 
     /**
@@ -19,6 +22,7 @@ public class Band {
        String random = (names[new Random().nextInt(names.length)]);  
        String random1 = (names[new Random().nextInt(names.length)]);
        String random2 = (names[new Random().nextInt(names.length)]);
+       
         Trumpet instrument1 = new Trumpet();
         Trombone instrument2 = new Trombone();
         Tuba instrument3 = new Tuba();
